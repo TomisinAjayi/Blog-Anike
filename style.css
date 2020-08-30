@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b7afaf40;
+}
+#navigation {
+    background: black;
+    color: white;
+}
+span.navbar-text {
+    letter-spacing: 10px;
+}
+.navbar-brand {
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+.navbar-text a {
+    color: white;
+}
+pre {
+    text-align: center;
+}
+.brand {
+    letter-spacing: 10px;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.col-md-6 {
+    margin-left: auto;
+    background-color: white;
+    margin-right: 70px;
+}
+.col-md-3 {
+    margin-right: auto;
+    background-color: white;
+}
