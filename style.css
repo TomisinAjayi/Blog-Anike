@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #b7afaf40;
+    background-color: #e65faa9c;
 }
 #navigation {
     background: black;
@@ -25,30 +25,27 @@ span.navbar-text {
     font-size: 12px;
 }
 a:hover {
-    color: #67f126bb;
+    color: #e65faa9c;
 }
 .nav-link:after {
     text-decoration-line: underline;
-    text-decoration-color: #67f126bb;
+    text-decoration-color: #e65faa9c;
 }
 .navbar-text a {
     color: white;
 }
-/* pre {
-    text-align: center;
+.container {
+    margin: 0 auto;
+    padding-top: 70px;
 }
-.brand {
-    letter-spacing: 10px;
-} */
-.row {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 30px;
-}
-.col-md-6 {
+#main {
+    width: 67%;
+    float: left;
     margin-left: auto;
-    background-color: white;
-    margin-right: 70px;
+}
+#sidebar {
+    width: 29%;
+    float: right;
 }
 section h2 {
     margin-top: 40px;
@@ -62,11 +59,13 @@ section h5 {
 }
 section p {
     padding-inline-start: 40px;
+    padding-inline-end: 40px;
 }
 ul li {
     margin-bottom: 10px;
+    padding-inline-end: 40px;
 }
-#myBtn {
+.myBtn {
     text-align: center;
     margin-inline-start: 247px;
     background-color: black;
@@ -76,13 +75,22 @@ ul li {
     border: 0;
     outline: none;
 }
-#more {
+.myBtn:hover {
+    color: #e65faa9c;
+}
+.more {
     display: none;
 }
-.col-md-3 {
+.sidebar {
     margin-right: auto;
     background-color: white;
     padding: 0;
+}
+.post {
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: white;
 }
 section h4 {
     background-color: black;
